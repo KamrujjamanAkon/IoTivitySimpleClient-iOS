@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF88F2541E39EBAE007D9E6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF88F2531E39EBAE007D9E6D /* main.m */; };
+		FF88F2571E39EBAE007D9E6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF88F2561E39EBAE007D9E6D /* AppDelegate.m */; };
+		FF88F25A1E39EBAE007D9E6D /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FF88F2591E39EBAE007D9E6D /* ViewController.mm */; };
+		FF88F25D1E39EBAE007D9E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF88F25B1E39EBAE007D9E6D /* Main.storyboard */; };
+		FF88F25F1E39EBAE007D9E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF88F25E1E39EBAE007D9E6D /* Assets.xcassets */; };
+		FF88F2621E39EBAE007D9E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF88F2601E39EBAE007D9E6D /* LaunchScreen.storyboard */; };
+		FF88F26B1E39EC61007D9E6D /* out in Resources */ = {isa = PBXBuildFile; fileRef = FF88F26A1E39EC60007D9E6D /* out */; };
+		FF88F26D1E39EC8A007D9E6D /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F26C1E39EC8A007D9E6D /* boost.framework */; };
+		FF88F2831E39ECC6007D9E6D /* libc_common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F26F1E39ECC6007D9E6D /* libc_common.a */; };
+		FF88F2841E39ECC6007D9E6D /* libcoap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2701E39ECC6007D9E6D /* libcoap.a */; };
+		FF88F2851E39ECC6007D9E6D /* libconnectivity_abstraction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2711E39ECC6007D9E6D /* libconnectivity_abstraction.a */; };
+		FF88F2861E39ECC6007D9E6D /* libESMediatorRich.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2721E39ECC6007D9E6D /* libESMediatorRich.a */; };
+		FF88F2871E39ECC6007D9E6D /* liblogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2731E39ECC6007D9E6D /* liblogger.a */; };
+		FF88F2881E39ECC6007D9E6D /* libnotification_consumer_wrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2741E39ECC6007D9E6D /* libnotification_consumer_wrapper.a */; };
+		FF88F2891E39ECC6007D9E6D /* libnotification_consumer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2751E39ECC6007D9E6D /* libnotification_consumer.a */; };
+		FF88F28A1E39ECC6007D9E6D /* libnotification_provider_wrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2761E39ECC6007D9E6D /* libnotification_provider_wrapper.a */; };
+		FF88F28B1E39ECC6007D9E6D /* libnotification_provider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2771E39ECC6007D9E6D /* libnotification_provider.a */; };
+		FF88F28C1E39ECC6007D9E6D /* liboc_logger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2781E39ECC6007D9E6D /* liboc_logger.a */; };
+		FF88F28D1E39ECC6007D9E6D /* liboc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2791E39ECC6007D9E6D /* liboc.a */; };
+		FF88F28E1E39ECC6007D9E6D /* libocsrm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F27A1E39ECC6007D9E6D /* libocsrm.a */; };
+		FF88F28F1E39ECC6007D9E6D /* liboctbstack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F27B1E39ECC6007D9E6D /* liboctbstack.a */; };
+		FF88F2901E39ECC6007D9E6D /* librcs_client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F27C1E39ECC6007D9E6D /* librcs_client.a */; };
+		FF88F2911E39ECC6007D9E6D /* librcs_common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F27D1E39ECC6007D9E6D /* librcs_common.a */; };
+		FF88F2921E39ECC6007D9E6D /* librcs_container.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F27E1E39ECC6007D9E6D /* librcs_container.a */; };
+		FF88F2931E39ECC6007D9E6D /* librcs_server.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F27F1E39ECC6007D9E6D /* librcs_server.a */; };
+		FF88F2941E39ECC6007D9E6D /* libresource_directory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2801E39ECC6007D9E6D /* libresource_directory.a */; };
+		FF88F2951E39ECC6007D9E6D /* libroutingmanager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2811E39ECC6007D9E6D /* libroutingmanager.a */; };
+		FF88F2961E39ECC6007D9E6D /* libscene_manager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F2821E39ECC6007D9E6D /* libscene_manager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF88F24F1E39EBAE007D9E6D /* IoTivitySimpleClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTivitySimpleClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF88F2531E39EBAE007D9E6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF88F2551E39EBAE007D9E6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF88F2561E39EBAE007D9E6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF88F2581E39EBAE007D9E6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF88F2591E39EBAE007D9E6D /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		FF88F25C1E39EBAE007D9E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF88F25E1E39EBAE007D9E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF88F2611E39EBAE007D9E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF88F2631E39EBAE007D9E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF88F26A1E39EC60007D9E6D /* out */ = {isa = PBXFileReference; lastKnownFileType = folder; path = out; sourceTree = "<group>"; };
+		FF88F26C1E39EC8A007D9E6D /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = boost.framework; sourceTree = "<group>"; };
+		FF88F26F1E39ECC6007D9E6D /* libc_common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libc_common.a; path = IoTivitySimpleClient/out/ios/arm64/debug/libc_common.a; sourceTree = "<group>"; };
+		FF88F2701E39ECC6007D9E6D /* libcoap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcoap.a; path = IoTivitySimpleClient/out/ios/arm64/debug/libcoap.a; sourceTree = "<group>"; };
+		FF88F2711E39ECC6007D9E6D /* libconnectivity_abstraction.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconnectivity_abstraction.a; path = IoTivitySimpleClient/out/ios/arm64/debug/libconnectivity_abstraction.a; sourceTree = "<group>"; };
+		FF88F2721E39ECC6007D9E6D /* libESMediatorRich.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libESMediatorRich.a; path = IoTivitySimpleClient/out/ios/arm64/debug/libESMediatorRich.a; sourceTree = "<group>"; };
+		FF88F2731E39ECC6007D9E6D /* liblogger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblogger.a; path = IoTivitySimpleClient/out/ios/arm64/debug/liblogger.a; sourceTree = "<group>"; };
+		FF88F2741E39ECC6007D9E6D /* libnotification_consumer_wrapper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnotification_consumer_wrapper.a; path = IoTivitySimpleClient/out/ios/arm64/debug/libnotification_consumer_wrapper.a; sourceTree = "<group>"; };
+		FF88F2751E39ECC6007D9E6D /* libnotification_consumer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnotification_consumer.a; path = IoTivitySimpleClient/out/ios/arm64/debug/libnotification_consumer.a; sourceTree = "<group>"; };
+		FF88F2761E39ECC6007D9E6D /* libnotification_provider_wrapper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnotification_provider_wrapper.a; path = IoTivitySimpleClient/out/ios/arm64/debug/libnotification_provider_wrapper.a; sourceTree = "<group>"; };
+		FF88F2771E39ECC6007D9E6D /* libnotification_provider.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnotification_provider.a; path = IoTivitySimpleClient/out/ios/arm64/debug/libnotification_provider.a; sourceTree = "<group>"; };
+		FF88F2781E39ECC6007D9E6D /* liboc_logger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboc_logger.a; path = IoTivitySimpleClient/out/ios/arm64/debug/liboc_logger.a; sourceTree = "<group>"; };
+		FF88F2791E39ECC6007D9E6D /* liboc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboc.a; path = IoTivitySimpleClient/out/ios/arm64/debug/liboc.a; sourceTree = "<group>"; };
+		FF88F27A1E39ECC6007D9E6D /* libocsrm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libocsrm.a; path = IoTivitySimpleClient/out/ios/arm64/debug/libocsrm.a; sourceTree = "<group>"; };
+		FF88F27B1E39ECC6007D9E6D /* liboctbstack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboctbstack.a; path = IoTivitySimpleClient/out/ios/arm64/debug/liboctbstack.a; sourceTree = "<group>"; };
+		FF88F27C1E39ECC6007D9E6D /* librcs_client.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librcs_client.a; path = IoTivitySimpleClient/out/ios/arm64/debug/librcs_client.a; sourceTree = "<group>"; };
+		FF88F27D1E39ECC6007D9E6D /* librcs_common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librcs_common.a; path = IoTivitySimpleClient/out/ios/arm64/debug/librcs_common.a; sourceTree = "<group>"; };
+		FF88F27E1E39ECC6007D9E6D /* librcs_container.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librcs_container.a; path = IoTivitySimpleClient/out/ios/arm64/debug/librcs_container.a; sourceTree = "<group>"; };
+		FF88F27F1E39ECC6007D9E6D /* librcs_server.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librcs_server.a; path = IoTivitySimpleClient/out/ios/arm64/debug/librcs_server.a; sourceTree = "<group>"; };
+		FF88F2801E39ECC6007D9E6D /* libresource_directory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libresource_directory.a; path = IoTivitySimpleClient/out/ios/arm64/debug/libresource_directory.a; sourceTree = "<group>"; };
+		FF88F2811E39ECC6007D9E6D /* libroutingmanager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libroutingmanager.a; path = IoTivitySimpleClient/out/ios/arm64/debug/libroutingmanager.a; sourceTree = "<group>"; };
+		FF88F2821E39ECC6007D9E6D /* libscene_manager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libscene_manager.a; path = IoTivitySimpleClient/out/ios/arm64/debug/libscene_manager.a; sourceTree = "<group>"; };
+		FF88F2981E39ED53007D9E6D /* IoTvity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTvity.h; sourceTree = "<group>"; };
+		FF88F2991E39F155007D9E6D /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF88F24C1E39EBAE007D9E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF88F2831E39ECC6007D9E6D /* libc_common.a in Frameworks */,
+				FF88F2841E39ECC6007D9E6D /* libcoap.a in Frameworks */,
+				FF88F2851E39ECC6007D9E6D /* libconnectivity_abstraction.a in Frameworks */,
+				FF88F2861E39ECC6007D9E6D /* libESMediatorRich.a in Frameworks */,
+				FF88F2871E39ECC6007D9E6D /* liblogger.a in Frameworks */,
+				FF88F2881E39ECC6007D9E6D /* libnotification_consumer_wrapper.a in Frameworks */,
+				FF88F2891E39ECC6007D9E6D /* libnotification_consumer.a in Frameworks */,
+				FF88F28A1E39ECC6007D9E6D /* libnotification_provider_wrapper.a in Frameworks */,
+				FF88F28B1E39ECC6007D9E6D /* libnotification_provider.a in Frameworks */,
+				FF88F28C1E39ECC6007D9E6D /* liboc_logger.a in Frameworks */,
+				FF88F28D1E39ECC6007D9E6D /* liboc.a in Frameworks */,
+				FF88F28E1E39ECC6007D9E6D /* libocsrm.a in Frameworks */,
+				FF88F28F1E39ECC6007D9E6D /* liboctbstack.a in Frameworks */,
+				FF88F2901E39ECC6007D9E6D /* librcs_client.a in Frameworks */,
+				FF88F2911E39ECC6007D9E6D /* librcs_common.a in Frameworks */,
+				FF88F2921E39ECC6007D9E6D /* librcs_container.a in Frameworks */,
+				FF88F2931E39ECC6007D9E6D /* librcs_server.a in Frameworks */,
+				FF88F2941E39ECC6007D9E6D /* libresource_directory.a in Frameworks */,
+				FF88F2951E39ECC6007D9E6D /* libroutingmanager.a in Frameworks */,
+				FF88F2961E39ECC6007D9E6D /* libscene_manager.a in Frameworks */,
+				FF88F26D1E39EC8A007D9E6D /* boost.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF88F2461E39EBAE007D9E6D = {
+			isa = PBXGroup;
+			children = (
+				FF88F2511E39EBAE007D9E6D /* IoTivitySimpleClient */,
+				FF88F2501E39EBAE007D9E6D /* Products */,
+				FF88F26E1E39ECC5007D9E6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF88F2501E39EBAE007D9E6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF88F24F1E39EBAE007D9E6D /* IoTivitySimpleClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF88F2511E39EBAE007D9E6D /* IoTivitySimpleClient */ = {
+			isa = PBXGroup;
+			children = (
+				FF88F2691E39EBEF007D9E6D /* Libs */,
+				FF88F2551E39EBAE007D9E6D /* AppDelegate.h */,
+				FF88F2561E39EBAE007D9E6D /* AppDelegate.m */,
+				FF88F2581E39EBAE007D9E6D /* ViewController.h */,
+				FF88F2591E39EBAE007D9E6D /* ViewController.mm */,
+				FF88F25B1E39EBAE007D9E6D /* Main.storyboard */,
+				FF88F25E1E39EBAE007D9E6D /* Assets.xcassets */,
+				FF88F2601E39EBAE007D9E6D /* LaunchScreen.storyboard */,
+				FF88F2631E39EBAE007D9E6D /* Info.plist */,
+				FF88F2521E39EBAE007D9E6D /* Supporting Files */,
+				FF88F2991E39F155007D9E6D /* Light.h */,
+				FF88F2981E39ED53007D9E6D /* IoTvity.h */,
+			);
+			path = IoTivitySimpleClient;
+			sourceTree = "<group>";
+		};
+		FF88F2521E39EBAE007D9E6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF88F2531E39EBAE007D9E6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF88F2691E39EBEF007D9E6D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				FF88F26C1E39EC8A007D9E6D /* boost.framework */,
+				FF88F26A1E39EC60007D9E6D /* out */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		FF88F26E1E39ECC5007D9E6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF88F26F1E39ECC6007D9E6D /* libc_common.a */,
+				FF88F2701E39ECC6007D9E6D /* libcoap.a */,
+				FF88F2711E39ECC6007D9E6D /* libconnectivity_abstraction.a */,
+				FF88F2721E39ECC6007D9E6D /* libESMediatorRich.a */,
+				FF88F2731E39ECC6007D9E6D /* liblogger.a */,
+				FF88F2741E39ECC6007D9E6D /* libnotification_consumer_wrapper.a */,
+				FF88F2751E39ECC6007D9E6D /* libnotification_consumer.a */,
+				FF88F2761E39ECC6007D9E6D /* libnotification_provider_wrapper.a */,
+				FF88F2771E39ECC6007D9E6D /* libnotification_provider.a */,
+				FF88F2781E39ECC6007D9E6D /* liboc_logger.a */,
+				FF88F2791E39ECC6007D9E6D /* liboc.a */,
+				FF88F27A1E39ECC6007D9E6D /* libocsrm.a */,
+				FF88F27B1E39ECC6007D9E6D /* liboctbstack.a */,
+				FF88F27C1E39ECC6007D9E6D /* librcs_client.a */,
+				FF88F27D1E39ECC6007D9E6D /* librcs_common.a */,
+				FF88F27E1E39ECC6007D9E6D /* librcs_container.a */,
+				FF88F27F1E39ECC6007D9E6D /* librcs_server.a */,
+				FF88F2801E39ECC6007D9E6D /* libresource_directory.a */,
+				FF88F2811E39ECC6007D9E6D /* libroutingmanager.a */,
+				FF88F2821E39ECC6007D9E6D /* libscene_manager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF88F24E1E39EBAE007D9E6D /* IoTivitySimpleClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF88F2661E39EBAE007D9E6D /* Build configuration list for PBXNativeTarget "IoTivitySimpleClient" */;
+			buildPhases = (
+				FF88F24B1E39EBAE007D9E6D /* Sources */,
+				FF88F24C1E39EBAE007D9E6D /* Frameworks */,
+				FF88F24D1E39EBAE007D9E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IoTivitySimpleClient;
+			productName = IoTivitySimpleClient;
+			productReference = FF88F24F1E39EBAE007D9E6D /* IoTivitySimpleClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF88F2471E39EBAE007D9E6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					FF88F24E1E39EBAE007D9E6D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N4ETB7X5E7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF88F24A1E39EBAE007D9E6D /* Build configuration list for PBXProject "IoTivitySimpleClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF88F2461E39EBAE007D9E6D;
+			productRefGroup = FF88F2501E39EBAE007D9E6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF88F24E1E39EBAE007D9E6D /* IoTivitySimpleClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF88F24D1E39EBAE007D9E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF88F2621E39EBAE007D9E6D /* LaunchScreen.storyboard in Resources */,
+				FF88F25F1E39EBAE007D9E6D /* Assets.xcassets in Resources */,
+				FF88F25D1E39EBAE007D9E6D /* Main.storyboard in Resources */,
+				FF88F26B1E39EC61007D9E6D /* out in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF88F24B1E39EBAE007D9E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF88F25A1E39EBAE007D9E6D /* ViewController.mm in Sources */,
+				FF88F2571E39EBAE007D9E6D /* AppDelegate.m in Sources */,
+				FF88F2541E39EBAE007D9E6D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF88F25B1E39EBAE007D9E6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF88F25C1E39EBAE007D9E6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF88F2601E39EBAE007D9E6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF88F2611E39EBAE007D9E6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF88F2641E39EBAE007D9E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF88F2651E39EBAE007D9E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF88F2671E39EBAE007D9E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N4ETB7X5E7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IoTivitySimpleClient",
+				);
+				INFOPLIST_FILE = IoTivitySimpleClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IoTivitySimpleClient/out/ios/arm64/debug",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkan.IoTivitySimpleClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF88F2681E39EBAE007D9E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N4ETB7X5E7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IoTivitySimpleClient",
+				);
+				INFOPLIST_FILE = IoTivitySimpleClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IoTivitySimpleClient/out/ios/arm64/debug",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkan.IoTivitySimpleClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF88F24A1E39EBAE007D9E6D /* Build configuration list for PBXProject "IoTivitySimpleClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF88F2641E39EBAE007D9E6D /* Debug */,
+				FF88F2651E39EBAE007D9E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF88F2661E39EBAE007D9E6D /* Build configuration list for PBXNativeTarget "IoTivitySimpleClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF88F2671E39EBAE007D9E6D /* Debug */,
+				FF88F2681E39EBAE007D9E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF88F2471E39EBAE007D9E6D /* Project object */;
+}
